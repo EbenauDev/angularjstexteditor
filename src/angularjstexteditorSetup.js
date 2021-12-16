@@ -226,36 +226,35 @@ angular.module('angularjstexteditorSetup', [])
             tooltip: 'Texto justificado'
         },
         justifyCenter: {
-            tooltip: 'Centro'
+            tooltip: 'Texto alinhado ao centro'
         },
         indent: {
-            tooltip: 'Identar'
+            tooltip: 'Aumentar recuo'
         },
         outdent: {
-            tooltip: 'Decrease indent'
+            tooltip: 'Diminuir recuo'
         },
         clear: {
             tooltip: 'Limpar formatação'
         },
         insertImage: {
-            dialogPrompt: 'Please enter an image URL to insert',
-            tooltip: 'Insert image',
-            hotkey: 'the - possibly language dependent hotkey ... for some future implementation'
+            dialogPrompt: 'Por favor informe a URL da imagem',
+            tooltip: 'Inserir imagem',
         },
         insertVideo: {
             tooltip: 'Inserir vídeo',
             dialogPrompt: 'Por favor insira a URL do vídeo'
         },
         insertLink: {
-            tooltip: 'Insert / edit link',
+            tooltip: 'Inseir / editar link',
             dialogPrompt: "Por favor informe a URL do link"
         },
         editLink: {
             reLinkButton: {
-                tooltip: "Relink"
+                tooltip: "Refazer link"
             },
             unLinkButton: {
-                tooltip: "Unlink"
+                tooltip: "Desfazer link"
             },
             targetToggle: {
                 buttontext: "Abrir em uma nova janela"
