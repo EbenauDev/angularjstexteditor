@@ -1288,9 +1288,8 @@ angularjstexteditor.directive('angularjstexteditorToolbar', [
                     executeAction: taToolExecuteAction
                 };
 
+                let groupElement = angular.element("<div>");
                 angular.forEach(scope.toolbar, function (group) {
-                    // setup the toolbar group
-                    var groupElement = angular.element("<div>");
                     groupElement.addClass(scope.classes.toolbarGroup);
                     angular.forEach(group, function (tool) {
                         // init and add the tools to the group

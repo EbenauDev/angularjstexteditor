@@ -852,7 +852,7 @@ angular.module('angularjstexteditorSetup', [])
                 }
             });
             taRegisterTool('wordcount', {
-                display: '<div id="toolbarWC" style="display:block; min-width:100px;">Words: <span ng-bind="wordcount"></span></div>',
+                display: '<div id="toolbarWC" style="display:block; min-width:100px;">Palavras: <span ng-bind="wordcount"></span></div>',
                 disabled: true,
                 wordcount: 0,
                 activeState: function () { // this fires on keyup
@@ -881,7 +881,7 @@ angular.module('angularjstexteditorSetup', [])
                 }
             });
             taRegisterTool('charcount', {
-                display: '<div id="toolbarCC" style="display:block; min-width:120px;">Characters: <span ng-bind="charcount"></span></div>',
+                display: '<div id="toolbarCC" style="display:block; min-width:120px;">Caracteres: <span ng-bind="charcount"></span></div>',
                 disabled: true,
                 charcount: 0,
                 activeState: function () { // this fires on keyup
